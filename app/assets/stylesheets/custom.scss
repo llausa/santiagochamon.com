@@ -1,0 +1,248 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "normalize";
+
+/* universal */
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.skinny_wrapper {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.wrapper_padding {
+	padding: 2rem 0;
+}
+
+body {
+	padding-top: 60px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+	h1 {
+		margin-bottom: 10px;
+	}
+}
+
+.page_title {
+	text-align: center;
+	border-bottom: 2px solid #000;
+	padding: 2em 0;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+}
+
+h1 {
+	font-size: 3em;
+	
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: #777;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.375rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+p, li {
+	font-size: 1.1em;
+	line-height: 1.75em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Home */
+
+.row-1, .row-2, .row-3 {
+	text-align: center;
+}
+
+.homepage_content {
+	padding: 2.5em;
+	h2 {
+		font-size: 1.5rem;
+		text-transform: uppercase;
+	}
+	hr {
+		width: 5em;
+		height: 2px;
+		border: 0;
+		border-top: 2px solid #000;
+		margin: 2rem 0;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.pics {
+	margin: 2rem auto;
+}
+
+.text-block {
+	margin: 1rem auto;
+}
+
+.projects-block {
+	padding: 2rem;
+	margin: 0 auto;
+	text-align: center;
+	p {
+		padding: 2em;
+	}
+	i {
+		padding: 2em;
+	}
+}
+
+.posts-block {
+	padding: 2rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row-2 {
+	padding: 0 0 0 0;
+}
+
+
+/* contact */
+
+input[type="text"], input[type="email"], 
+input[type="password"], textarea {
+	width: 100%;
+	max-width: 100%;
+	height: 3em;
+	border: 2px solid #000;
+	padding: 1em;
+	margin: .5em 0 2em 0;
+}
+
+textarea {
+	min-height: 20em;
+}
+
+input[type="submit"], .button {
+	outline: none;
+	background: transparent;
+	border: 2px solid #000;
+	text-align: center;
+	font-size: 1em;
+	color: #000;
+	text-decoration: none;
+	padding: 1em 2em;
+	&:hover {
+		color: #fff;
+		background: #000;
+		text-decoration: none;
+	}
+}
+
+
+/* header */
+
+#main_navigation {
+	border-bottom: 2px solid #000;
+	padding: 1em 5%;
+	background: #fff;
+	.name {
+		font-weight: 700;
+		font-size: 1em;
+		text-transform: uppercase;
+		padding: 0.75em 1rem;
+		text-decoration: none;
+		color: #000;
+		float: left;
+	}
+	nav {
+		float: right;
+		padding-top: 1rem;
+		a {
+			color: #000;
+			text-decoration: none;
+			margin: 0 1rem;
+			font-size: 1em;
+		}
+	}
+}
+
+/* footer */
+
+#main_footer {
+	padding-top: 1.5em 5%;
+	padding: 2.5rem;
+	margin: 2rem;
+	border-top: 2px solid #000;
+	.copyright {
+		float: left;
+		font-size: .9em;
+		margin: 0;
+	}
+	nav {
+		float: right;
+		a {
+			color: #000;
+			margin-left: 1em;
+			padding-top: 2em;
+		}
+	}
+}
