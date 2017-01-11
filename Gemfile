@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails',          '5.0.1'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'simple_form',    '~> 3.3'
 gem 'ckeditor',       '~> 4.1'
 gem 'puma',           '3.4.0'
 gem 'sass-rails',     '>= 3.2'
