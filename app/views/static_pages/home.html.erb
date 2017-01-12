@@ -1,33 +1,29 @@
-<div class="wrapper clearfix">
-	<div class="row-1 homepage_content">
-		<hr>
-		<h2>About</h2>
-		<hr>
-		<div class="wrapper clearfix pics">
-			<%= image_tag("SChamon.jpg") %>
-		</div>
-		<div class="text-block clearfix wrapper">
-			<p>Hi, I am a Human.</p>
-			<p>I make useful things for the Internet.</p>
-			<p>If you have suggestions or questions, please contact me either through:</p>
-			<br>
-			<p><a href="https://twitter.com/santiagochamon" class="button">Twitter</a></p>
-			<br>
-			<p>or</p>
-			<br>
-			<p><a href="/contact" class="button">My Contact Page</a></p>
-		</div>
-	</div>
-	<div class="row-3 homepage_content">
-		<hr>
-		<h2>Newest Project</h2>
-		<hr>
-		<div class="projects-block clearfix wrapper">
-			<%= image_tag("first_project.png") %>
-			<br>
-			<p>This is my very first website made entirely from scratch. In order to learn how to do this I read Michael Hartl and watched Mackenzie Child's Ruby, RoR and Design Tutorials. You should check them out! This is a personal page and includes a contact form and a portfolio of projects.</p>
-			<br>
-		</div>
-	<a href="/projects" class="button">To see more Projects click here!</a>
-	</div>
+<div class="homepage_content">
+	<hr>
+	<h2>About</h2>
+	<hr>
 </div>
+
+<div class="projects-block clearfix skinny_wrapper">
+	<%= image_tag("SChamon.jpg") %>
+	<p>Hi, I am a Human. I make useful things for the Internet. If you have suggestions or questions, please contact me either through:</p>
+	<a href="https://twitter.com/santiagochamon" class="button">Twitter</a>
+	<p>or</p>
+	<a href="/contact" class="button">My Contact Page</a></p>
+</div>
+
+<div class="homepage_content">
+	<hr>
+	<h2>Newest Project</h2>
+	<hr>
+</div>
+
+<div class="projects-block clearfix skinny_wrapper homepage_content">
+	<%= image_tag("first_project.png") %>
+	<br>
+	<p>This is my very first website made entirely from scratch. In order to learn how to do this I read Michael Hartl and watched Mackenzie Child's Ruby, RoR and Design Tutorials. You should check them out! This is a personal page and includes a contact form and a portfolio of projects.</p>
+	<br>
+	<a href="/projects" class="button">To see more Projects click here!</a>
+</div>
+
+
