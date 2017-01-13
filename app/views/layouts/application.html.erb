@@ -17,6 +17,13 @@
     <div>
       <%= render 'layouts/header' %>
     </div>
+
+    <% if notice %>
+      <p class="notice"><%= notice %></p>
+    <% elsif alert %> 
+      <p class="alert"><%= alert %></p>
+    <% end %>
+
     <div class="container wrapper">
       <%= yield %>
     </div>
