@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.2.4'
+ruby  '2.3.8'
 
 gem 'rails',          '5.0.1'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'puma',           '3.4.0'
 gem 'sass-rails',     '>= 3.2'
 gem 'uglifier',       '3.0.0'
@@ -14,6 +14,9 @@ gem 'jbuilder',       '2.4.1'
 gem 'mail_form',      '~> 1.5', '>= 1.5.1'
 gem 'sendgrid-ruby'
 gem 'devise',         '~> 4.2'
+gem "actionview", ">= 5.0.7.2"
+gem "nokogiri", "~> 1.10.4"
+gem "activejob", ">= 5.0.7.1"
 
 group :development, :test do
   gem 'sqlite3', '1.3.12'
